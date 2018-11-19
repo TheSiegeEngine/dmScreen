@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="https://bootswatch.com/4/darkly/bootstrap.min.css" />
+    <link rel="stylesheet" href="main.css">
+
+    <title>DM Screen</title>
+  </head>
+  <body>
+    <nav id="navBar" class="navbar navbar-expand-sm navbar-light btn-primary align-items-start ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav flex-column w-75 mx-auto">
+                <a class="navbar-brand my-3 text-center mx-0" href="/">DM Screen</a>
+                <button class="nav-item btn btn-success my-2 shadow" onclick="runDice()">Dice</button>
+                <button class="nav-item btn btn-success my-2 shadow" onclick="runCombat()">Combat</button>
+                <button class="nav-item btn btn-success my-2 shadow" onclick="runSkills()">Skills</button>
+                <button class="nav-item btn btn-success my-2 shadow" onclick="runConditions()">Conditions</button>
+                <button class="nav-item btn btn-success my-2 shadow" onclick="runMisc()">Misc</button>
+                <button class="nav-item btn btn-success my-2 shadow" onclick="runTables()">Tables</button>
+                <button class="nav-item btn btn-success my-2 shadow" onclick="runEquipment()">Equipment</button>
+            </div>
+        </div>
+    </nav>
+    <div id="main-container" class="full-height bg-secondary pt-5">
+        <div class="px-5 py-2 bg-warning-a w-50 mx-auto rounded shadow">
+            <h1 class="text-center text-white">Pick a Die to roll</h1>
+            <div class="d-flex justify-content-between w-75 mx-auto">
+                <div>
+                    <br /><button class="btn btn-info mt-0">D100</button><span id="res100"></span>
+                    <br /><button class="btn btn-info mt-2">D20</button><span id="res20"></span>
+                    <br /><button class="btn btn-info mt-2">D12</button><span id="res12"></span>
+                </div>
+                <div>
+                    <br /><button class="btn btn-info mt-0">D100</button>
+                    <br /><button class="btn btn-info mt-2">D100</button>
+                    <br /><button class="btn btn-info mt-2">D100</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

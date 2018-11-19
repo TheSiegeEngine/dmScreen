@@ -1,0 +1,118 @@
+@media (min-width: 576px) {
+    #navBar{
+        width: 25%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+
+    #main-container {
+        position: relative;
+        width: 75%;
+        left: 25%;
+    }
+
+    .w-sm-25{
+        width: 25%;
+    }
+
+    .w-sm-50{
+        width: 50%;
+    }
+
+    .w-sm-75{
+        width: 75%;
+    }
+
+    .w-sm-100{
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 768px) {
+    #navBar{
+        width: 20%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+
+    #main-container {
+        position: relative;
+        width: 80%;
+        left: 20%;
+    }
+
+    .w-md-25{
+        width: 25%;
+    }
+
+    .w-md-50{
+        width: 50%;
+    }
+
+    .w-md-75{
+        width: 75%;
+    }
+
+    .w-md-100{
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    #navBar{
+        width: 15%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+
+    #main-container {
+        position: relative;
+        width: 85%;
+        left: 15%;
+    }
+
+    .w-lg-25{
+        width: 25%;
+    }
+
+    .w-lg-50{
+        width: 50%;
+    }
+
+    .w-lg-75{
+        width: 75%;
+    }
+
+    .w-lg-100{
+        width: 100%;
+    }
+}
+
+body{
+    min-width: 400px;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+
+.bg-warning-a {
+    background-color: #F39C147F;
+}
+.bg-danger-a {
+    background-color: #E74B3D7F;
+}
+.bg-info-a {
+    background-color: #3398DB7F;
+}
+.bg-secondary-a {
+    background-color: #01BB8C7F;
+}
+.bg-primary-a {
+    background-color: #3048617F;
+}
