@@ -1,15 +1,6 @@
-# Initial Commit of DC Group Project My Kitchen
+# Initial Commit of DM Screen Personal Project
 
-Date: Nov 15, 2018
-
-## Group Members:
-Robel Birkneh
-Pamela Matthews
-Olivia Clay
-CJ Horlebein
+Date: Nov 18, 2018
 
 ## Project Concept:
-myKitchen is designed to allow users to pull recipes using an recipe API and compare ingredient requirements against what users currently have in their kitchen. 
-
-Changelog:
-20181118 - initial commit of test design
+Sample screen for DM's with basic info. Personal Project by me.
